@@ -12,15 +12,15 @@ How to run our chat server
 
 1.	First open up the server in the terminal using the following command:
 
-javac Server.java && java Server <port>
+`javac Server.java && java Server <port>`
 
 We did the testing on port numbers between 4000 and 9000 so feel free to use one of those.
 
 2.	Next, open a client using the following command:
 
-javac Client.java && java Client <host> <port>
+`javac Client.java && java Client <host> <port>`
 	
-The host can be your local device ip address which you can find by typing ifconfig in the terminal and using the value shown in inet at lo0.  
+The host can be your local device ip address which you can find by typing `ifconfig` in the terminal and using the value shown in `inet` at `lo0`.  
 
 3.	You can open multiple clients in various terminal windows to test communication between the clients.
 
