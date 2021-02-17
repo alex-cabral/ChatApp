@@ -20,7 +20,7 @@ We did the testing on port numbers between 4000 and 9000 so feel free to use one
 
 javac Client.java && java Client <host> <port>
 	
-	The host can be your local device ip address which you can find by typing ifconfig in the terminal and using the value shown in inet at lo0.  
+The host can be your local device ip address which you can find by typing ifconfig in the terminal and using the value shown in inet at lo0.  
 
 3.	You can open multiple clients in various terminal windows to test communication between the clients.
 
